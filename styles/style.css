@@ -66,3 +66,51 @@ header{
   display: flex;
   align-items: center;
 }
+
+
+/* banner section style */
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/hero-bg.png);
+}
+.banner-box{
+  max-width: 550px;
+  text-align: center;
+  margin-top: 101px;
+  border: 2px solid white;
+}
+.banner-title{
+  color: #FFFFFF;
+  font-size: 800;
+  font-size: 60px;
+  margin-top: 40px ;
+}
+.banner-description{
+  color: #FFFFFF;
+  font-size: 400;
+  font-weight: 16px;
+  margin-bottom: 24px;
+}
+
+.btn-2{
+  display: flex;
+  gap: 8px;
+}
+.btn-3{
+  background: none;
+  border: 1px solid #00FF88;
+  color: #00FF88;
+  border-radius: 10000px;
+  display: flex;
+  padding: 12px 20px;
+  align-items: center;
+  gap: 8px;
+}
+.banner-button{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 100px;
+}
