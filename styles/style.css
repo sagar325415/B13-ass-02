@@ -114,3 +114,47 @@ header{
   gap: 8px;
   margin-bottom: 100px;
 }
+
+/* about section style */
+.about-section{
+  background-color: #1A0B2E;
+  border: 2px solid gray;
+}
+.about{
+  margin: 0 auto;
+  border: 2px solid skyblue;
+  text-align: center;
+  padding: 50px 200px 120px;
+}
+.about-container hr{
+  font-weight: 1;
+}
+.about-title{
+  font-size: 3rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.about-description{
+  font-size: 1rem;
+  color:#FFFFFF ;
+  line-height: 20px;
+  font-weight: 400px;
+  margin-bottom: 80px;
+}
+
+.about-card{
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.card-title{
+  color: #00FF88;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.card-txt{
+  color: #FFFFFF;
+  font-size:1rem ;
+  font-weight: 400;
+}
