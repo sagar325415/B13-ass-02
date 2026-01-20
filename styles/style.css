@@ -202,7 +202,7 @@ header{
 .about-card{
   margin-top: 80px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 80px;
 }
 .card-title{
