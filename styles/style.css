@@ -140,6 +140,7 @@ header{
   font-weight: 600;
   padding: 8px 16px;
   cursor: pointer;
+  border: none;
 
   top: -500px;
   right: -140px; 
@@ -445,7 +446,7 @@ iframe{
   }
   .small{
     margin-top: 20px;
-    text-wrap: nowrap;
+  text-align: nowrap;
   }
 /* challenge style */
   .challenge-title{
