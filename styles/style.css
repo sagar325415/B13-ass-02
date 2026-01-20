@@ -11,7 +11,6 @@
 }
 
 
-
 /* shared style */
 .btn-primary{
       background: linear-gradient(to right, #F7E93F, #FB09B4,#9100F8);
@@ -22,6 +21,7 @@
       border-radius: 10000px;
       cursor: pointer;
 }
+
 .container{
   max-width: 1200px;
   width: 75%;
@@ -34,10 +34,6 @@
   color: transparent;
 
 }
-
-
-
-
 
 /* default style */
 header{
@@ -136,7 +132,7 @@ header{
   width: 350px;
   margin: 0 auto;
 }
-.new{
+.new-btn{
   background-color: #00FF88;
   border-radius: 1000px;
   color: #1A0B2E;
@@ -156,11 +152,23 @@ header{
   top: -280px;
 } 
 
+/* animation part */
+@keyframes float {
+  0% { 
+      transform: translateY(0px); 
+      }
+  50% { 
+      transform: translateX(-30px);
+ 
+      }
+  100% { 
+    transform: translateY(0px); 
+       }
+}
 
-
-
-
-
+.new-btn {
+  animation: float 1s ease-in-out infinite;
+}
 
 /* about section style */
 .about-section{
@@ -206,9 +214,6 @@ header{
   font-size:1rem ;
   font-weight: 400;
 }
-
-
-
 /* techwave style */
 .TechWave-section{
   background-color: #230E3D;
@@ -263,13 +268,7 @@ header{
 .card-5{
   height: 273px;
 }
-
-
-
-
 /* feature style */
-
-
 .feature-section{
   background-color: #1A0B2E;
   /* border: 2px solid white; */
@@ -325,11 +324,6 @@ iframe{
   font-weight: 600px;
   gap: 6px;
 }
-
-
-
-
-
 /* challenge style */
 .challenge-section{
   background-color: #1A0B2E;
@@ -378,8 +372,6 @@ iframe{
   padding: 10px;
   border-radius: 50%;
 }
-
-
 
 /* footer style */
 .footer{
@@ -431,16 +423,7 @@ iframe{
   font-weight: 400;
 }
 
-
-
-/* hidden */
-.hidden{
-  display: none;
-}
-
-
 @media screen and (max-width:576px){
-
   /* footer section */
   .footer{
     padding: 40px;
@@ -458,6 +441,7 @@ iframe{
   }
   .small{
     margin-top: 20px;
+    text-wrap: nowrap;
   }
 /* challenge style */
   .challenge-title{
@@ -497,14 +481,14 @@ iframe{
    .feature-boxes{
     display: grid;
     grid-template-columns: repeat(1,1fr);
+    gap: 20px;
    }
    .feature-box-title{
-    font-size: 20px;
+    font-size: 1.25rem;
    }
    .feature-box-content{
     padding-top: 16px;
    }
-
    /* tech wave style */
    .Tech-wave{
       width: 87%;
@@ -526,11 +510,8 @@ iframe{
     height: auto;
    }
    .wave-card-title{
-    font-size: 22px;
+    font-size: 1.25rem;
    }
-
-
-
    /* about style */
    .about{
     width: 87%;
@@ -552,7 +533,6 @@ iframe{
    .about-description{
     margin-bottom: 40px;
    }
-
    /* banner style */
    .banner-title{
     font-size: 2.75rem;  
@@ -566,7 +546,6 @@ iframe{
    .banner-box{
     margin-top: 50px;
    }
-
    /* navbar style */
    .nav-list,.btn-1{
     display: none;
