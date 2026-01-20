@@ -206,6 +206,8 @@ header{
   margin-top: 80px;
   display: flex;
   justify-content: space-between;
+   padding-left: 0px;
+   padding-right: 0px;
 }
 .card-title{
   color: #00FF88;
